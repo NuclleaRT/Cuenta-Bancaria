@@ -7,7 +7,8 @@ body{
 }
 
 header{
-    background-color: #ff9100;
+    background-image: linear-gradient(to right, #ff9100 , #d64040);
+
     display: grid;
     text-align: center;    
        
@@ -28,6 +29,11 @@ header ul li{
     font-size: 1.1rem;
     color: #ff9100;
     cursor: pointer;
+    transition: all 0.3s;
+}
+.sesion:hover{
+    transform: scale(1.2);
+    
 }
 
 .titulo{
@@ -42,9 +48,10 @@ h1{
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3rem;
+    grid-template-rows: 6rem;
     gap: 10px;
     text-align: center;
+    margin: 20px;
     
 }
 p{
@@ -52,4 +59,6 @@ p{
     border: 1px 1px solid;
     background-color: #d9dbe0;
     border-radius: 5px;
+    padding: 1rem;    
+    font-size: 1.3rem;
 }
