@@ -1,0 +1,11 @@
+{
+    "nombre": "Cristobal",
+    "apellido": "Ruiz",
+    "edad": 29,
+    "direccion": {
+        "calle" : "San Martin",
+        "ciudad" : "Temuco"
+    },
+    "estudiante": true,
+    "saldo": 100
+}

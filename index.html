@@ -7,7 +7,26 @@
     <script src="/App.js"></script>
     <title>Cuenta-Bancaria</title>
 </head>
-<body>
-    
+<header>
+    <ul class="header">
+        <li>Home</li>
+        <li>Resumen Financiero</li>
+        <li>Tranferencias</li>
+        <li>Pago Rapido</li>
+        <li ><button class="sesion">Cerrar Sesion</button></li>
+    </ul>
+</header>
+<body onload="mostrarDatos()">
+    <div class="titulo">
+        <div></div>
+        <h1>Cuenta Bancaria</h1>
+    </div>
+
+    <div id="content" class="content">
+        <p id="nombre">Nombre:</p>
+        <p id="apellido">Apellido:</p>
+        <p id="edad">Edad:</p>
+        <p id="saldo">Saldo:</p>        
+    </div>
 </body>
 </html>
